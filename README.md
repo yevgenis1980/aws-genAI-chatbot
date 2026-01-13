@@ -7,15 +7,15 @@ Architecture with public and private subnets, an Application Load Balancer (ALB)
 
 
 
-🎯 Architecture Overview
+🎯 GenAI Chatbot | Architecture Overview
 ```
-✅ VPC containing Public and Private Subnets
-✅ Internet Gateway for outbound internet access
-✅ NAT Gateway in the public subnet for private subnet egress
-✅ Auto Scaling Group (ASG) using a Launch Template
-✅ EC2 instances in the ASG, scaling in/out automatically
-✅ Users hitting the system via the public internet
-✅ Private resources (like RDS, caches) in the private subnets
+✅ Deployment & Infrastructure Layer
+Code repositories, CI/CD pipelines, AWS CDK, S3/CloudFront, Cognito, API Gateway/AppSync, vector databases, and Bedrock endpoints.
+✅ Chatbot Runtime:
+User queries go through API Gateway → Lambda preprocessing → RAG retrieval → LLM query → post-processing → response to the user.
+✅ Monitoring & Feedback:
+CloudWatch metrics, EventBridge alerts, analytics, automated updates, and optional API triggers.
+This modular architecture allows developers to customize models, data sources, and user workflows while maintaining enterprise-grade security and reliability.
 ```
 
 
