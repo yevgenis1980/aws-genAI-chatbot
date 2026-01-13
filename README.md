@@ -17,15 +17,15 @@ Architecture with public and private subnets, an Application Load Balancer (ALB)
 
 🧱 Features
 ```
-✔ Multi-Model Support
+Multi-Model Support:
 AWS GenAI Chatbot can query multiple LLMs at once. This allows you to compare responses from different models and select the best one for your application.
-✔ RAG Workspaces
+RAG Workspaces:
 Users can upload documents, PDFs, or structured data into workspaces. The chatbot indexes this content and retrieves relevant information dynamically during conversations.
-✔ Multimodal Capabilities
+Multimodal Capabilities
 Beyond text, the chatbot can interact with multimodal content such as images, leveraging models hosted on SageMaker or Bedrock for richer responses.
-✔ Security and Access Control
+Security and Access Control:
 Integration with Amazon Cognito enables authentication, role-based access control, and secure access to sensitive information.
-✔ Scalability & Monitoring
+Scalability & Monitoring:
 AWS services such as CloudWatch and EventBridge allow monitoring, logging, and alerting, ensuring your chatbot scales efficiently and operates reliably.
 ```
 
