@@ -22,18 +22,20 @@ AWS GenAI LLM Chatbot is an open‑source, enterprise‑ready generative AI chat
 ```
 
 
-🧱 Features
+🚀 Key Features
 ```
-Multi-Model Support:
-AWS GenAI Chatbot can query multiple LLMs at once. This allows you to compare responses from different models and select the best one for your application.
-RAG Workspaces:
-Users can upload documents, PDFs, or structured data into workspaces. The chatbot indexes this content and retrieves relevant information dynamically during conversations.
-Multimodal Capabilities
-Beyond text, the chatbot can interact with multimodal content such as images, leveraging models hosted on SageMaker or Bedrock for richer responses.
-Security and Access Control:
-Integration with Amazon Cognito enables authentication, role-based access control, and secure access to sensitive information.
-Scalability & Monitoring:
-AWS services such as CloudWatch and EventBridge allow monitoring, logging, and alerting, ensuring your chatbot scales efficiently and operates reliably.
+🔹 Multi‑LLM Support
+You can run many different models — including Amazon Bedrock models (like Claude and Llama 2), SageMaker hosted models, and even external provider models (OpenAI, Anthropic, Cohere, etc.) — all from a single chatbot framework.
+🔹 RAG Workspaces & Document Indexing
+Upload files or text into “workspaces” and the system will index them so the chatbot can pull in relevant context during conversations. You choose the embeddings model and chunking setup.
+🔹 Multimodal Support
+You can experiment with multimodal models (e.g., those that understand image content) via Amazon SageMaker deployments.
+🔹 Full Web UI Included
+A React‑based web interface is part of the solution, served from Amazon S3 & CloudFront, so end users can interact with the chatbot in a browser.
+🔹 Role‑Based Access Control
+Use Amazon Cognito to manage user authentication and roles, letting you restrict which chatbots or data different users can access.
+🔹 Multi‑Model Comparison
+The system supports sending the same query to multiple models at once so you can compare how each responds in the same context
 ```
 
 
