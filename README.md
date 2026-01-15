@@ -1,4 +1,5 @@
-<img width="800" height="533" alt="image" src="https://github.com/user-attachments/assets/f0275285-60aa-46b6-8749-e11bf059ac08" />
+<img width="800" height="533" alt="image" src="https://github.com/user-attachments/assets/ef1fca5a-4ebb-40f4-93fd-7fd95742ee07" />
+
 
 
 ## AWS | GenAI Chatbot
