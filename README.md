@@ -1,9 +1,8 @@
 <img width="800" height="533" alt="image" src="https://github.com/user-attachments/assets/f0275285-60aa-46b6-8749-e11bf059ac08" />
 
 
-
 ## AWS | GenAI Chatbot
-Architecture with public and private subnets, an Application Load Balancer (ALB), EC2 instances, and private resources. It demonstrates how users interact with the system, and how scaling and secure resource access are managed.
+AWS GenAI LLM Chatbot is an open‑source, enterprise‑ready generative AI chatbot solution that you can deploy in your own AWS account. It’s designed to let you build powerful chatbots that combine large language models (LLMs) and Retrieval‑Augmented Generation (RAG) — meaning it can answer questions using both the model’s capabilities and relevant content from indexed documents stored in your AWS environment
 
 
 
